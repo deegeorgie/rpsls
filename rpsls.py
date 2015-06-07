@@ -14,7 +14,6 @@
 import random
 
 def name_to_number(name):
-    # delete the following pass statement and fill in your code below
     if name == "rock":
         return 0
     elif name == "Spock":
@@ -27,11 +26,9 @@ def name_to_number(name):
         return 4
 
     # convert name to number using if/elif/else
-    # don't forget to return the result!
-
+    # and return the result
 
 def number_to_name(number):
-    # delete the following pass statement and fill in your code below
     if number == 0:
         return "rock"
     elif number == 1:
@@ -44,9 +41,8 @@ def number_to_name(number):
         return "scissors"
     
     # convert number to a name using if/elif/else
-    # don't forget to return the result!
+    # and return the result!
     
-
 def rpsls(player_choice): 
     
     # print a blank line to separate consecutive games
@@ -72,13 +68,9 @@ def rpsls(player_choice):
     else:
         print "Player wins"
     
-# test your code - THESE CALLS MUST BE PRESENT IN YOUR SUBMITTED CODE
+# test code
 rpsls("rock")
 rpsls("Spock")
 rpsls("paper")
 rpsls("lizard")
 rpsls("scissors")
-
-# always remember to check your completed program against the grading rubric
-
-
